@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4020f068-435d-4da9-8fde-b0eabc52fed9}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="cache\shaders.txt" />
+    <Content Include="gui\bar\bottom.png" />
+    <Content Include="gui\bar\left.png" />
+    <Content Include="gui\bar\right.png" />
+    <Content Include="gui\bar\top.png" />
+    <Content Include="gui\bubble.png" />
+    <Content Include="gui\button\check_foreground.png" />
+    <Content Include="gui\button\check_selected_foreground.png" />
+    <Content Include="gui\button\choice_hover_background.png" />
+    <Content Include="gui\button\choice_idle_background.png" />
+    <Content Include="gui\button\hover_background.png" />
+    <Content Include="gui\button\idle_background.png" />
+    <Content Include="gui\button\quick_hover_background.png" />
+    <Content Include="gui\button\quick_idle_background.png" />
+    <Content Include="gui\button\radio_foreground.png" />
+    <Content Include="gui\button\radio_selected_foreground.png" />
+    <Content Include="gui\button\slot_hover_background.png" />
+    <Content Include="gui\button\slot_idle_background.png" />
+    <Content Include="gui\frame.png" />
+    <Content Include="gui\game_menu.png" />
+    <Content Include="gui\main_menu.png" />
+    <Content Include="gui\namebox.png" />
+    <Content Include="gui\notify.png" />
+    <Content Include="gui\nvl.png" />
+    <Content Include="gui\overlay\confirm.png" />
+    <Content Include="gui\overlay\game_menu.png" />
+    <Content Include="gui\overlay\main_menu.png" />
+    <Content Include="gui\phone\bar\bottom.png" />
+    <Content Include="gui\phone\bar\left.png" />
+    <Content Include="gui\phone\bar\right.png" />
+    <Content Include="gui\phone\bar\top.png" />
+    <Content Include="gui\phone\button\check_foreground.png" />
+    <Content Include="gui\phone\button\check_selected_foreground.png" />
+    <Content Include="gui\phone\button\choice_hover_background.png" />
+    <Content Include="gui\phone\button\choice_idle_background.png" />
+    <Content Include="gui\phone\button\hover_background.png" />
+    <Content Include="gui\phone\button\idle_background.png" />
+    <Content Include="gui\phone\button\radio_foreground.png" />
+    <Content Include="gui\phone\button\radio_selected_foreground.png" />
+    <Content Include="gui\phone\button\slot_hover_background.png" />
+    <Content Include="gui\phone\button\slot_idle_background.png" />
+    <Content Include="gui\phone\nvl.png" />
+    <Content Include="gui\phone\overlay\game_menu.png" />
+    <Content Include="gui\phone\overlay\main_menu.png" />
+    <Content Include="gui\phone\scrollbar\horizontal_hover_bar.png" />
+    <Content Include="gui\phone\scrollbar\horizontal_hover_thumb.png" />
+    <Content Include="gui\phone\scrollbar\horizontal_idle_bar.png" />
+    <Content Include="gui\phone\scrollbar\horizontal_idle_thumb.png" />
+    <Content Include="gui\phone\scrollbar\vertical_hover_bar.png" />
+    <Content Include="gui\phone\scrollbar\vertical_hover_thumb.png" />
+    <Content Include="gui\phone\scrollbar\vertical_idle_bar.png" />
+    <Content Include="gui\phone\scrollbar\vertical_idle_thumb.png" />
+    <Content Include="gui\phone\slider\horizontal_hover_bar.png" />
+    <Content Include="gui\phone\slider\horizontal_hover_thumb.png" />
+    <Content Include="gui\phone\slider\horizontal_idle_bar.png" />
+    <Content Include="gui\phone\slider\horizontal_idle_thumb.png" />
+    <Content Include="gui\phone\slider\vertical_hover_bar.png" />
+    <Content Include="gui\phone\slider\vertical_hover_thumb.png" />
+    <Content Include="gui\phone\slider\vertical_idle_bar.png" />
+    <Content Include="gui\phone\slider\vertical_idle_thumb.png" />
+    <Content Include="gui\phone\textbox.png" />
+    <Content Include="gui\scrollbar\horizontal_hover_bar.png" />
+    <Content Include="gui\scrollbar\horizontal_hover_thumb.png" />
+    <Content Include="gui\scrollbar\horizontal_idle_bar.png" />
+    <Content Include="gui\scrollbar\horizontal_idle_thumb.png" />
+    <Content Include="gui\scrollbar\vertical_hover_bar.png" />
+    <Content Include="gui\scrollbar\vertical_hover_thumb.png" />
+    <Content Include="gui\scrollbar\vertical_idle_bar.png" />
+    <Content Include="gui\scrollbar\vertical_idle_thumb.png" />
+    <Content Include="gui\skip.png" />
+    <Content Include="gui\slider\horizontal_hover_bar.png" />
+    <Content Include="gui\slider\horizontal_hover_thumb.png" />
+    <Content Include="gui\slider\horizontal_idle_bar.png" />
+    <Content Include="gui\slider\horizontal_idle_thumb.png" />
+    <Content Include="gui\slider\vertical_hover_bar.png" />
+    <Content Include="gui\slider\vertical_hover_thumb.png" />
+    <Content Include="gui\slider\vertical_idle_bar.png" />
+    <Content Include="gui\slider\vertical_idle_thumb.png" />
+    <Content Include="gui\textbox.png" />
+    <Content Include="gui\thoughtbubble.png" />
+    <Content Include="gui\window_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="cache" />
+    <Folder Include="gui" />
+    <Folder Include="gui\bar" />
+    <Folder Include="gui\button" />
+    <Folder Include="gui\overlay" />
+    <Folder Include="gui\phone" />
+    <Folder Include="gui\phone\bar" />
+    <Folder Include="gui\phone\button" />
+    <Folder Include="gui\phone\overlay" />
+    <Folder Include="gui\phone\scrollbar" />
+    <Folder Include="gui\phone\slider" />
+    <Folder Include="gui\scrollbar" />
+    <Folder Include="gui\slider" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
